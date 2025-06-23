@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "hitboxmod",
+  "version": "1.0.0",
+  "name": "Hitbox Mod",
+  "description": "Mod to change hitboxes.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.hitboxmod.HitboxMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
